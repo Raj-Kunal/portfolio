@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import logo from "../public/assets/logo.png";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -31,8 +32,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Link href={"/"} passHref>
           <Image
-            src="/../public/assets/logo.png"
-            alt=""
+            src={logo}
+            alt="Logo"
             width="90"
             height="60"
           />
@@ -84,10 +85,10 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href={"/"} passHref>
                 <Image
-                  src="/../public/assets/logo.png"
+                  src={logo}
                   width="60"
                   height="35"
-                  alt="/"
+                  alt="Logo"
                   onClick={() => setNav(false)}
                 />
               </Link>

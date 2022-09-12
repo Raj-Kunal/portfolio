@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
+
 import React from "react";
 import img1 from "../public/assets/portfolio-04.jpg";
 import ProjectItem from "./ProjectItem";
