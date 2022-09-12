@@ -49,7 +49,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 ">
             <div className="lg:p-4 items-center justify-center h-full  ">
               <div className="hover:scale-105 ease-in duration-300">
-                <Image className="rounded-xl" src={img1} height="350px" />
+                <Image className="rounded-xl" src={img1} alt='' height="350px" />
               </div>
               <div>
                 <div>
@@ -57,7 +57,7 @@ const Contact = () => {
                   <p>MERN Developer</p>
                   <p className="py-4">
                     I am available for freelance or inter positions. Contact me
-                    and let's talk.
+                    and let&#39;s talk.
                   </p>
                 </div>
                 <div>
